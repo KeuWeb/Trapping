@@ -1,0 +1,29 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    font-size: 0.8em;
+}
+input[type="text"], input[type="email"], input[type="number"], textarea {
+    width: 97%;
+    padding: 10px;
+}
+ul {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+#btnCalculate {
+    position: relative;
+    float: right;
+    padding: 10px;
+    margin: 15px 70px 0 0;
+}
+#btnInclude {
+    width: 100%;
+    margin-top: 15px;
+    padding: 10px 0;
+}
